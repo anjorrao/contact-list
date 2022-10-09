@@ -1,0 +1,24 @@
+.contact-info {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex: auto;
+}
+
+.contact-info h3,
+.contact-info p {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.contact-info button {
+  width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+  .contact-info h3,
+  .contact-info p {
+    text-align: left;
+  }
+}
